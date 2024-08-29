@@ -1,5 +1,7 @@
 const express = require('express');
+const dotenv = require('dotenv')
 
+dotenv.config()
 const app = express();
 
 const port = 3000;
@@ -13,7 +15,7 @@ app.use(express.static('public')); // Serve static files from the 'public' direc
 
 // Handle POST requests to the '/summarize' endpoint
 app.post('/summarize', (req, res) => {
-  // get the text_to_summarize property from the request body
+ // get the text_to_summarize property from the request body
   const text = req.body.text_to_summarize;
 
   // call your summarizeText function, passing in the text from the request
@@ -28,5 +30,5 @@ app.post('/summarize', (req, res) => {
 
 // Start the server
 app.listen(port, () => {
-  console.log('Server running at http://localhost:${port}/');
+  console.log(`Server running at http://localhost:${port}/`);
 });
