@@ -2,7 +2,7 @@
 
 Welcome to the AI Text Summarization App! This application leverages advanced machine learning models to generate concise summaries of long texts. It's designed to help you quickly understand the core ideas of any document without having to read through the entire content.
 
-## Live Demo: [Click Here](https://ai-text-summarizer-app-ten.vercel.app/)
+## Live Demo: <a href="https://ai-text-summarizer-app-ten.vercel.app/" target="_blank">Click Here</a>
 
 ## Images:
 
