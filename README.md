@@ -2,6 +2,7 @@
 
 Welcome to the AI Text Summarization App! This application leverages advanced machine learning models to generate concise summaries of long texts. It's designed to help you quickly understand the core ideas of any document without having to read through the entire content.
 
+## I hope this link work in replit: https://d3800d19-b872-47fb-92b4-919df57486a9-00-2dz3qz7tzre3v.sisko.replit.dev/
 ## Images:
 
 ![demo image for the AI summarization webapp](./img/demo1.png)
