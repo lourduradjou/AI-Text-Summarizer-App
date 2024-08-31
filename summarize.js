@@ -22,7 +22,7 @@ async function summarizeText(text) {
 		url: 'https://api-inference.huggingface.co/models/facebook/bart-large-cnn',
 		headers: {
 			'Content-Type': 'application/json',
-			Authorization: `Bearer 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`, //this api will not work
+			Authorization: `Bearer ${process.env['ACCESS_TOKEN']}`, //this api will not work
 		},
 		data: data,
 	}
